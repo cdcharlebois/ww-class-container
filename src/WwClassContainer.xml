@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<widget id="mendix.wwclasscontainer.WwClassContainer" pluginWidget="true" needsEntityContext="true" offlineCapable="true" supportedPlatform="Web" 
+    xmlns="http://www.mendix.com/widget/1.0/" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mendix.com/widget/1.0/ ../node_modules/mendix/custom_widget.xsd">
+    <name>Ww Class Container</name>
+    <description>My widget description</description>
+    <icon/>
+    <properties>
+        <!-- dynamicClasses, content, action -->
+        <propertyGroup caption="General">
+            <property key="dynamicClasses" type="expression" defaultValue="">
+                <caption>Classes</caption>
+                <description>An expression that returns a string of classes to apply. (space delimitted)</description>
+                <returnType type="String" />
+            </property>
+            <property key="content" type="widgets" required="true">
+                <caption>Content</caption>
+                <description></description>
+            </property>
+            <property key="action" type="action">
+                <caption>On Click</caption>
+                <description>Click handler</description>
+            </property>
+        </propertyGroup>
+    </properties>
+</widget>
