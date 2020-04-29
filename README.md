@@ -10,3 +10,4 @@ The finished product will produce a container with click handler and dynamic cla
 
 ## Issues, suggestions and feature requests
 
+https://github.com/cdcharlebois/ww-class-container/issues
